@@ -1,0 +1,32 @@
+h1.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: url(./manga-header.jpg) center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  text-shadow: -5px -1px 0 #000, 1px -1px 0 #000, -5px 1px 0 #000,
+    -5px 1px 0 #000;
+  padding-top: 38%;
+  padding-bottom: 15%;
+}
+
+.small {
+  display: inline-block;
+  flex-direction: column;
+  width: 40%;
+  background: rgb(203 195 195);
+  margin: 5%;
+  margin-left: 5vw;
+  padding: 0vw;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.home-image {
+  max-width: 100%;
+  display: flex;
+  margin: inherit;
+  margin-top: 1.5vh;
+}

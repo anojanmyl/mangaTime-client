@@ -1,0 +1,27 @@
+.profile-title {
+  text-align: center;
+}
+
+.profile-input {
+  width: 12vw;
+}
+
+.profile-img {
+  display: flex;
+  margin: auto;
+  /* margin-left: 2px; */
+  align-items: center;
+}
+
+.smaller {
+  display: inline-block;
+  /* position: absolute; */
+  flex-direction: column;
+  width: 40%;
+  background: rgb(203 195 195);
+  margin: 5%;
+  margin-left: 5vw;
+  padding: 0vw;
+  text-align: center;
+  border-radius: 10%;
+}
